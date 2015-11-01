@@ -15,6 +15,12 @@ logging:
     root: WARN
     org.springframework.security: DEBUG
 
+spring:
+  redis:
+    host: localhost
+    password: ""
+    port: 6379
+
 management:
   security:
     enabled: false
