@@ -17,7 +17,6 @@ security:
       userAuthorizationUri: http://localhost:19999/uaa/oauth/authorize
       # ssoLogoutUrl below is custom property, not part of Spring
       ssoLogoutUrl: http://localhost:19999/uaa/logout?redirect=http://localhost:8080/ssologout
-
       # the credential below must be configured in authorization server.
       clientId: acme
       clientSecret: acmesecret
